@@ -1,20 +1,70 @@
+
 <!DOCTYPE html>
 <html>
+	<head>
+		<title> APHG </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			body {
+				background-color: lightyellow;
+			}
+			#results > button {
+				background-color: lightblue;
+				color: black;
+				padding: 10px;
+				border-style: none;
+				border-left: 6px solid blue;
+				border-bottom: 3px solid white;
+			}
+			#results > button:hover {
+				background-color: lightgreen;
+			}
+			h2 {
+				width: 38%;
+				text-align: center;
+				font-size: 40px;
+			}
+			textarea {
+				width: 35%;
+				height: 60px;
+				font-size: 15px;
+				padding: 4px;
+			}
+			#search {
+				font-size: 40px;
+				background-color: white;
+				color: gold;
+				border-color: gold;
+			}
+			#search:hover {
+				background-color: gold;
+				color: white;
+			}
+			#results::-webkit-scrollbar {
+  				display: none;
+			}
+		</style>
+	</head>
 <body>
-
+<div id="load" style="display: none;">
+<i class="fa fa-spinner fa-spin" style="font-size:40px; position: fixed; top:2%; right: 61%;"></i></div>
 <h2>AP Human Geography</h2>
 
 <textarea type="text" id="engine"> </textarea>
-<button type="button" onclick="range()">Search</button>
-<br>
-<p><span id="num">0</span> results found</p><br>
-<div id="results">
+<button type="button" id="search"  onclick="range()">></button>
+<p><span id="num">0</span> result(s) found</p>
+<div id="results" style="height: 120px;  overflow: scroll; border: none;">
 </div>
-<div style="display: none;" id="open"><iframe id="show" style="width: 300px; height: 300px;" src=""></iframe></div>
+<hr style="width: 38%; position: fixed; left: 1%;"></hr>
+<iframe style="zoom: 170%; background-color: white; position: fixed; left: 1%; bottom: 1%;height: 60%; width: 38%;" src="vocabulary.txt"></iframe>
+<div style="position: fixed; right: 0; top:1%; bottom:0; height: 100%; width: 60%;" id="open"><iframe id="show" style="width: 99%; height: 98%; background-color: white;" src=""></iframe></div>
 <script>
 var keys = [];
 var summation = [];
 function range() {
+	$('.erase').remove();
+	$("br").remove();
 	keys = [];
 	summation = [];
 	let a = document.getElementById("engine").value;
@@ -30,6 +80,8 @@ function range() {
 	}
 let y = 0;
 var total = 0;
+document.getElementById("load").style.display = "block";
+
 for(let j=0; j<keys.length; j++) {
   for(let i=1; i<=2; i++) { //change i<= [total .md page's gathered]
      var gather = new XMLHttpRequest();
@@ -40,6 +92,7 @@ for(let j=0; j<keys.length; j++) {
           	var button = document.createElement("button");
 			var br = document.createElement("br");
             button.innerHTML = firstLine;
+			button.className = "erase";
 			button.onclick = function(){
                  open(i + ".md");
             };
@@ -56,13 +109,14 @@ for(let j=0; j<keys.length; j++) {
     gather.send();
   }	  
  }
+  document.getElementById("load").style.display =  "none";
 }
 
 function open(url) {
 	document.getElementById("show").src = url;
-	document.getElementById("open").style.display = "block";
 }
+
 </script>
 
 </body>
-</html> 
+</html>
