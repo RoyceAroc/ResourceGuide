@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>AP Human Geography</h2>
+
+<textarea type="text" id="engine"> </textarea>
+<button type="button" onclick="range()">Search</button>
+<br>
+<p><span id="num">0</span> results found</p><br>
+<div id="results">
+</div>
+<div id="open"><iframe style="display: none;" id="show" style="width: 300px; height: 300px;" src=""></iframe></div>
+<script>
+var keys = [];
+var summation = [];
+function range() {
+	keys = [];
+	summation = [];
+	let a = document.getElementById("engine").value;
+	a += " ";
+	let word = "";
+	for(m=0; m<a.length; m++) {
+		if(a.charAt(m) == " " & word != "") {
+			keys.push(word);
+			word = "";
+		} else if(a.charAt(m) != " ") {
+			word += a.charAt(m);
+		}
+	}
+let y = 0;
+var total = 0;
+for(let j=0; j<keys.length; j++) {
+  for(let i=1; i<=2; i++) { //change i<= [total .md page's gathered]
+     var gather = new XMLHttpRequest();
+     gather.onreadystatechange = function() {
+     if (this.readyState == 4 && this.status == 200) {
+		if(this.responseText.toUpperCase().includes(keys[j].toUpperCase())) {
+			var firstLine = this.responseText.split('\n')[0];
+          	var button = document.createElement("button");
+			var br = document.createElement("br");
+            button.innerHTML = firstLine;
+			button.onclick = function(){
+                 open(i + ".md");
+            };
+			if(summation.includes(i) != true) {
+				summation.push(i);
+            	document.getElementById("results").appendChild(button);
+				document.getElementById("results").appendChild(br);
+			    document.getElementById("num").innerHTML = total+= 1;
+			}
+		  } 
+        }
+      };
+    gather.open("GET", i + ".md", true);
+    gather.send();
+  }	  
+ }
+}
+
+function open(url) {
+	document.getElementById("show").src = url;
+	document.getElementById("open").style.display = "block";
+}
+</script>
+
+</body>
+</html>
