@@ -1,20 +1,3 @@
 Vocabulary
-1. Space
-   - When talking about space, geographers are referring to the geometric surface to the Earth.
-2. Spatial
-   - A synonym for space
-3. Activity Space
-   - When geographers are talking about activity space, they are referring to an area wherein activity occurs on a daily basis.
-4. Thinking spatially
-   - This means understanding the pattern and distribution of objects and analyzing their relationships, connectedness, movement, growth, and change across space and over time.
-5. Place 
-   - Place is an area less abstract, and is an area of bounded space of some human importance. 
-   - Specific human and physical characteristics of a location.
-6. Sense of Place 
-   - Humans tend to perceive the characteristics of places in different ways based on their personal beliefs.
-7. Toponym 
-   - name given to a portion of Earth's surface
-8. Region
-   - Regions are a type of place, and there are other categories of places, such as urban places, places of work, resource locations, and transportation nodes.
-9. Sequent Occupancy
-   - 
+1. Word
+   - Def
