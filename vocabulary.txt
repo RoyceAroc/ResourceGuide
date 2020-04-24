@@ -1,18 +1,25 @@
 Vocabulary
 1. Energy
    - Capacity to Do Work
+   
 2. Potential Energy 
    - Energy at rest (stored energy)
+   
 3. Kinetic Energy 
    - Energy in motion
+   
 4. Radiant Energy
    - Sunlight  
    - Form of energy than can travel through empty space.
+   
 5. Convection  
    - Transfer of heat by the movement of energy around Earth (describes the movement of energy around Earth).
+   
 6. Conduction  
    - Transfer of energy through matter from particle to particle (describes the movement of energy around Earth).
+   
 7. Energy Quality 
    - High quality energy means electrical energy, mechanical energy, and some forms of chemical stored energy, for example, the fossil fuels. Low quality energy means low temperature heat. High quality energy is more valuable than low quality energy. As such, coal produces more energy than wood. 
+   
 8. Net Energy Yield
    - It refers to the comparison between the cost of extraction, processing, transportation, and the amount of useful energy derived from the fuel. 
