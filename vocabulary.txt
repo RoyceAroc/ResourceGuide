@@ -59,3 +59,27 @@ Vocabulary
   
 19. Petrochemicals
    - Chemicals obtained by refining (distilling) crude oil. They are used as raw materials in manufacturing most industrial chemicals, fertilizers, pesticides, plastics, synthetic fibers, paints, medicines, and many other products.
+   
+20. Gusher
+   - A large release of oil and gas. 
+
+21. Underground mining 
+   - Involves sinking shafts to reach underground deposits.
+
+22. Subsidence
+   - Massive slumping of lands.
+
+23. Strip Mining
+   - Involves the removal of the Earth's surface, all the way down to the level of the coal seam.
+
+24. Overburden
+   - Parts of the Earth that were removed before mining.
+   
+25. Acid Mine Drainage
+   - Highly acidic water which flows to surrounding areas and is caused by abandoned metal and coal mines.
+   
+26. Scrubbers  
+   - Contain alkaline substances that precipitate out much of the sulfur dioxide. Thus, calcium sulfate is eliminated in the waste sludge.
+
+27. Fly Ash and Boilder Residue
+   - Two waste products produced from the burning of coal.
