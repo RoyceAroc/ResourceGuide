@@ -23,3 +23,4 @@ Vocabulary
    
 8. Net Energy Yield
    - It refers to the comparison between the cost of extraction, processing, transportation, and the amount of useful energy derived from the fuel. 
+   - Amount of energy available from a resource - amount of energy needed to make it available. 
