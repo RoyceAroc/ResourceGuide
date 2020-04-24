@@ -24,3 +24,24 @@ Vocabulary
 8. Net Energy Yield
    - It refers to the comparison between the cost of extraction, processing, transportation, and the amount of useful energy derived from the fuel. 
    - Amount of energy available from a resource - amount of energy needed to make it available. 
+
+9. First Law of Thermodynamics 
+   - Energy can neither be created nor destroyed.
+
+10. Second Law of Thermodynamics
+   - The second law of thermodynamics says that when energy changes from one form to another form, or matter moves freely, entropy (disorder) in a closed system increases. Differences in temperature, pressure, and density tend to even out horizontally after a while.
+   
+11. Fossil Fuels 
+   - Formed from the fossilized remains of once-living organisms.
+
+12. Seams
+   - Long continuous deposits where coal is found.
+   - The seams represent areas where large amounts of plant remains were buried and eventually transformed into coal.
+   
+13. Exploratory Wells
+   - Predicted areas of where a sample will be.
+
+14. Proven Reserve
+   - If an exploratory reserve hits a fossil fuel reserve, it can provide an estimate of the amount of fuel that can be obtained from that area; this is called a proven reserve. 
+
+15. 
