@@ -72,6 +72,7 @@ function range() {
 	let word = "";
 	for(m=0; m<a.length; m++) {
 		if(a.charAt(m) == " " & word != "") {
+			word = word.toUpperCase();
 			keys.push(word);
 			word = "";
 		} else if(a.charAt(m) != " ") {
