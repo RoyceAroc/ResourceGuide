@@ -70,10 +70,11 @@ function range() {
 	let a = document.getElementById("engine").value;
 	a += " ";
 	let word = "";
+	let word1 = "";
 	for(m=0; m<a.length; m++) {
 		if(a.charAt(m) == " " & word != "") {
-			word = word.toUpperCase();
-			keys.push(word);
+			word1 = word.toUpperCase();
+			keys.push(word1);
 			word = "";
 		} else if(a.charAt(m) != " ") {
 			word += a.charAt(m);
