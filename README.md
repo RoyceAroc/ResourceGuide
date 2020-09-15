@@ -1,2 +1,2 @@
 # ResourceGuide
-AP Exam Tool @ https://roycearoc.github.io/ResourceGuide/.
+Notes Tool @ https://roycearoc.github.io/ResourceGuide/.
